@@ -2,6 +2,8 @@ from os.path import isfile, join, exists
 from os import listdir, makedirs
 import cv2
 import numpy as np
+
+# python -m pip install -U scikit-image
 from skimage import measure
 
 INPUT_DIR_PATH = "images/raw"
